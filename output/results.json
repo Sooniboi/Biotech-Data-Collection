@@ -1,0 +1,412 @@
+{
+ "universe": 79,
+ "events": 20798,
+ "first_event": "2018-05-10",
+ "last_event": "2026-09-17",
+ "events_by_kind": {
+  "other": 11818,
+  "trial": 2845,
+  "earnings": 2573,
+  "fda": 2016,
+  "deal": 1546
+ },
+ "event_study_pct": {
+  "all": {
+   "[-5,+1]": {
+    "bottom": {
+     "mean": -0.71,
+     "t": -5.13,
+     "n": 6941
+    },
+    "middle": {
+     "mean": 1.3,
+     "t": 8.21,
+     "n": 6924
+    },
+    "top": {
+     "mean": 0.96,
+     "t": 6.56,
+     "n": 6933
+    },
+    "top_minus_bottom": {
+     "mean": 1.67,
+     "t": 8.29
+    }
+   },
+   "[0,+1]": {
+    "bottom": {
+     "mean": -0.07,
+     "t": -1.03,
+     "n": 6941
+    },
+    "middle": {
+     "mean": 0.36,
+     "t": 4.01,
+     "n": 6924
+    },
+    "top": {
+     "mean": 0.75,
+     "t": 6.83,
+     "n": 6933
+    },
+    "top_minus_bottom": {
+     "mean": 0.82,
+     "t": 6.27
+    }
+   },
+   "[0,+5]": {
+    "bottom": {
+     "mean": 0.0,
+     "t": 0.04,
+     "n": 6941
+    },
+    "middle": {
+     "mean": 0.64,
+     "t": 5.17,
+     "n": 6924
+    },
+    "top": {
+     "mean": 0.91,
+     "t": 6.84,
+     "n": 6933
+    },
+    "top_minus_bottom": {
+     "mean": 0.91,
+     "t": 5.23
+    }
+   },
+   "[0,+20]": {
+    "bottom": {
+     "mean": 0.45,
+     "t": 2.34,
+     "n": 6941
+    },
+    "middle": {
+     "mean": 1.57,
+     "t": 7.56,
+     "n": 6924
+    },
+    "top": {
+     "mean": 1.34,
+     "t": 6.69,
+     "n": 6933
+    },
+    "top_minus_bottom": {
+     "mean": 0.89,
+     "t": 3.24
+    }
+   }
+  },
+  "fda": {
+   "[-5,+1]": {
+    "bottom": {
+     "mean": -0.77,
+     "t": -0.56,
+     "n": 91
+    },
+    "middle": {
+     "mean": 0.44,
+     "t": 1.13,
+     "n": 643
+    },
+    "top": {
+     "mean": 1.02,
+     "t": 4.5,
+     "n": 1282
+    },
+    "top_minus_bottom": {
+     "mean": 1.8,
+     "t": 1.28
+    }
+   },
+   "[0,+1]": {
+    "bottom": {
+     "mean": -0.62,
+     "t": -0.72,
+     "n": 91
+    },
+    "middle": {
+     "mean": 0.49,
+     "t": 1.67,
+     "n": 643
+    },
+    "top": {
+     "mean": 0.81,
+     "t": 5.53,
+     "n": 1282
+    },
+    "top_minus_bottom": {
+     "mean": 1.43,
+     "t": 1.65
+    }
+   },
+   "[0,+5]": {
+    "bottom": {
+     "mean": 0.15,
+     "t": 0.13,
+     "n": 91
+    },
+    "middle": {
+     "mean": 0.45,
+     "t": 1.22,
+     "n": 643
+    },
+    "top": {
+     "mean": 0.92,
+     "t": 4.5,
+     "n": 1282
+    },
+    "top_minus_bottom": {
+     "mean": 0.77,
+     "t": 0.67
+    }
+   },
+   "[0,+20]": {
+    "bottom": {
+     "mean": 0.11,
+     "t": 0.07,
+     "n": 91
+    },
+    "middle": {
+     "mean": 1.14,
+     "t": 2.14,
+     "n": 643
+    },
+    "top": {
+     "mean": 0.92,
+     "t": 2.45,
+     "n": 1282
+    },
+    "top_minus_bottom": {
+     "mean": 0.81,
+     "t": 0.46
+    }
+   }
+  },
+  "trial": {
+   "[-5,+1]": {
+    "bottom": {
+     "mean": -1.01,
+     "t": -0.81,
+     "n": 150
+    },
+    "middle": {
+     "mean": 1.51,
+     "t": 3.47,
+     "n": 1112
+    },
+    "top": {
+     "mean": 1.9,
+     "t": 5.51,
+     "n": 1583
+    },
+    "top_minus_bottom": {
+     "mean": 2.91,
+     "t": 2.25
+    }
+   },
+   "[0,+1]": {
+    "bottom": {
+     "mean": -0.88,
+     "t": -0.76,
+     "n": 150
+    },
+    "middle": {
+     "mean": 0.78,
+     "t": 2.22,
+     "n": 1112
+    },
+    "top": {
+     "mean": 1.48,
+     "t": 4.93,
+     "n": 1583
+    },
+    "top_minus_bottom": {
+     "mean": 2.36,
+     "t": 1.96
+    }
+   },
+   "[0,+5]": {
+    "bottom": {
+     "mean": -0.71,
+     "t": -0.6,
+     "n": 150
+    },
+    "middle": {
+     "mean": 1.07,
+     "t": 2.64,
+     "n": 1112
+    },
+    "top": {
+     "mean": 1.79,
+     "t": 5.0,
+     "n": 1583
+    },
+    "top_minus_bottom": {
+     "mean": 2.5,
+     "t": 2.02
+    }
+   },
+   "[0,+20]": {
+    "bottom": {
+     "mean": 0.36,
+     "t": 0.21,
+     "n": 150
+    },
+    "middle": {
+     "mean": 1.97,
+     "t": 3.56,
+     "n": 1112
+    },
+    "top": {
+     "mean": 2.24,
+     "t": 4.69,
+     "n": 1583
+    },
+    "top_minus_bottom": {
+     "mean": 1.88,
+     "t": 1.05
+    }
+   }
+  },
+  "earnings": {
+   "[-5,+1]": {
+    "bottom": {
+     "mean": 0.35,
+     "t": 1.42,
+     "n": 1196
+    },
+    "middle": {
+     "mean": 0.57,
+     "t": 1.35,
+     "n": 615
+    },
+    "top": {
+     "mean": 0.3,
+     "t": 0.68,
+     "n": 762
+    },
+    "top_minus_bottom": {
+     "mean": -0.06,
+     "t": -0.11
+    }
+   },
+   "[0,+1]": {
+    "bottom": {
+     "mean": 0.12,
+     "t": 0.76,
+     "n": 1196
+    },
+    "middle": {
+     "mean": 0.02,
+     "t": 0.06,
+     "n": 615
+    },
+    "top": {
+     "mean": 0.53,
+     "t": 1.35,
+     "n": 762
+    },
+    "top_minus_bottom": {
+     "mean": 0.41,
+     "t": 0.95
+    }
+   },
+   "[0,+5]": {
+    "bottom": {
+     "mean": 0.22,
+     "t": 0.8,
+     "n": 1196
+    },
+    "middle": {
+     "mean": 0.11,
+     "t": 0.29,
+     "n": 615
+    },
+    "top": {
+     "mean": 0.58,
+     "t": 1.32,
+     "n": 762
+    },
+    "top_minus_bottom": {
+     "mean": 0.36,
+     "t": 0.71
+    }
+   },
+   "[0,+20]": {
+    "bottom": {
+     "mean": 0.64,
+     "t": 1.35,
+     "n": 1196
+    },
+    "middle": {
+     "mean": 1.49,
+     "t": 1.86,
+     "n": 615
+    },
+    "top": {
+     "mean": 0.91,
+     "t": 1.34,
+     "n": 762
+    },
+    "top_minus_bottom": {
+     "mean": 0.27,
+     "t": 0.33
+    }
+   }
+  }
+ },
+ "strategy": {
+  "from": "2018-07-26",
+  "to": "2026-10-16",
+  "hold_days": 20,
+  "cost_bp_per_side": 10.0,
+  "long_top_tercile": {
+   "cagr": 14.64,
+   "vol": 25.16,
+   "sharpe": 0.67,
+   "max_drawdown": -30.94,
+   "total_return": 206.93,
+   "trades": 6793,
+   "hit_rate_vs_xbi": 48.4,
+   "avg_excess_per_trade": 0.62
+  },
+  "long_short": {
+   "cagr": -4.18,
+   "vol": 19.13,
+   "sharpe": -0.13,
+   "max_drawdown": -55.18,
+   "total_return": -29.59,
+   "trades": 13984,
+   "hit_rate_vs_xbi": 48.1,
+   "avg_excess_per_trade": 0.57
+  },
+  "all_events_control": {
+   "cagr": 17.97,
+   "vol": 26.55,
+   "sharpe": 0.76,
+   "max_drawdown": -34.41,
+   "total_return": 288.09,
+   "trades": 20798,
+   "hit_rate_vs_xbi": 48.5,
+   "avg_excess_per_trade": 0.76
+  },
+  "long_bottom_tercile": {
+   "cagr": 15.31,
+   "vol": 31.74,
+   "sharpe": 0.61,
+   "max_drawdown": -50.09,
+   "total_return": 221.87,
+   "trades": 7191,
+   "hit_rate_vs_xbi": 47.9,
+   "avg_excess_per_trade": 0.53
+  },
+  "xbi": {
+   "cagr": 4.99,
+   "vol": 33.06,
+   "sharpe": 0.31,
+   "max_drawdown": -63.89,
+   "total_return": 49.11
+  }
+ }
+}
